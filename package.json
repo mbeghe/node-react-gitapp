@@ -1,0 +1,26 @@
+{
+  "name": "shaw-test",
+  "version": "1.0.0",
+  "description": "Full stack developer test for Shaw and partners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mbeghe@bitbucket.org/mbeghe/shaw-test.git"
+  },
+  "author": "Marcelo Agustin Beghe",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mbeghe/shaw-test#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "react-redux": "^7.1.0",
+    "request": "^2.88.0"
+  }
+}
